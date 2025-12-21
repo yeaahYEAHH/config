@@ -1,0 +1,10 @@
+{
+    "network": {
+        "interface": "enp6s0",         
+        "format": "{ifname}",           
+        "format-ethernet": " 󰛳 {ipaddr}/{cidr}",
+        "format-disconnected": "<span color='#dd532e'>Disconnected/span>",   
+        "tooltip-format-ethernet": "{ifname} via {gwaddr}", 
+        "max-length": 50
+    }
+}

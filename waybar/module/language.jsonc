@@ -1,0 +1,9 @@
+{
+    "hyprland/language": {
+        "format": "<b>{}</b>",
+        "tooltip": false,
+        "keyboard-name": "razer-razer-cynosa-lite",
+        "format-en": "en",
+        "format-ru": "ru"
+    }
+}

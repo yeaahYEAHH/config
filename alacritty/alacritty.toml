@@ -1,0 +1,63 @@
+[general]
+#live_config_reload = true
+
+[window]
+#decorations="None"
+decorations_theme_variant = "Dark"
+padding = {x = 10, y = 0}
+dynamic_padding = true
+opacity = 0.8
+
+[font]
+normal.family = "MesloLGS Nerd Font"
+#normal.family = "Noto Color Emoji"
+size = 11.5
+
+[colors]
+draw_bold_text_with_bright_colors = true
+cursor = { text = "#000000", cursor = "#7ec3c1" }
+vi_mode_cursor = { text = "#000000", cursor = "#01a0e4"}
+#line_indicator = { foreground = "#f7f3f7", background = "#1b181b" }
+footer_bar = { foreground = "#b5e4f4", background = "#090300" }
+selection = { text = "#a5a2a2", background = "#000000" }
+
+[colors.primary]
+background = "#000000"
+foreground = "#7ec3c1"
+dim_foreground = "#509996" 
+bright_foreground = "#a4c1c0"
+
+
+[colors.search]
+matches = { foreground = "#60ac39", background = "#000000" }
+focused_match = { foreground = "#71291e", background = "#1fad83" }
+
+[colors.hints]
+start = { foreground = "#60ac39", background = "#000000" }
+end = { foreground = "#71291e", background = "#1fad83" }
+
+[bell]	
+animation = "EaseOutExpo"
+duration = 500
+color = "#000000"
+#command = { program = "notify-send", args = ["Bell"] }
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Underline", blinking = "Always" }
+vi_mode_style = { shape = "Block", blinking = "Never" }
+blink_interval = 500
+blink_timeout = 0
+unfocused_hollow = false
+thickness = 0.1
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+	{ key = "V", mods = "Control", action = "ToggleViMode" },
+]
+

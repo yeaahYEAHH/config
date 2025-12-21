@@ -1,0 +1,13 @@
+{
+    "hyprland/workspaces": {
+        "active-only": true,
+        "format": "{windows}",
+        "format-window-separator": "",
+        "workspace-taskbar": {
+            "enable": true,
+            "update-active-window": true,
+            "format": "{icon}",
+            "icon-size": 14
+        }
+    }
+}

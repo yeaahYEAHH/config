@@ -1,0 +1,9 @@
+{
+  "custom/power": {
+    "format": "",     
+    "tooltip": false,
+    "on-click-right": "systemctl poweroff",      
+    "on-click-middle": "systemctl reboot",     
+    "on-click-left": "hyprlock"     
+  }
+}

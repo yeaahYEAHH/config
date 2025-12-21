@@ -1,0 +1,50 @@
+{
+  // modules
+  "include": [
+    "~/.config/waybar/module/clock.jsonc",
+    "~/.config/waybar/module/language.jsonc",
+    "~/.config/waybar/module/cpu.jsonc",
+    "~/.config/waybar/module/disk.jsonc",
+    "~/.config/waybar/module/window.jsonc",
+    "~/.config/waybar/module/workspace.jsonc",
+    "~/.config/waybar/module/ram.jsonc",
+    "~/.config/waybar/module/network.jsonc",
+    "~/.config/waybar/module/audio.jsonc",
+    "~/.config/waybar/module/temperature.jsonc",
+    "~/.config/waybar/module/user.jsonc",
+    "~/.config/waybar/module/power.jsonc",
+  ],
+
+  "name": "bar",
+
+  "layer": "top",
+  "output": ["DP-3"],
+  "position": "top",
+
+  "height": 48,
+  //"width": 1200,
+
+  "margin-left": 10,
+  "margin-right": 10,
+  "margin-top": 5,
+  "margin-bottom": 0,
+  
+  "mode": "dock",
+  //"start_hidden": true,
+  // "update-active-window": true,
+  "reload_style_on_change": true,
+  
+  "modules-right": ["pulseaudio", "hyprland/language", "clock", "user", "custom/power"],
+  "modules-center": ["hyprland/window", "hyprland/workspaces"],
+  "modules-left": ["cpu", "temperature",  "disk", "memory", "network", "systemd-failed-units"],
+
+  "systemd-failed-units": {
+    "hide-on-ok": false, 
+    "format": "✗ {nr_failed}",
+    "format-ok": "✓",
+    "system": true, 
+    "user": false
+  }
+}
+
+

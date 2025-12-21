@@ -1,0 +1,9 @@
+{
+    "disk": {
+        "interval": 60,
+        "format": " {free}",
+        "path": "/home",
+        "tooltip": true,
+        "tooltip-format": "{used} used out of {total} on {path} ({percentage_used}%)"
+    }
+}

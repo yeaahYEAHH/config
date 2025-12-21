@@ -1,0 +1,13 @@
+{
+    "temperature": {
+        "thermal-zone": 0,                
+        "format": "{temperatureC}°C ",  
+        "warning-threshold": 60,        
+        "critical-threshold": 80,         
+        "format-critical": "{temperatureC}°C",
+        "format-icons": ["","",""],  
+        "interval": 5,                  
+        "tooltip": true,
+        "tooltip-format": "CPU Temp: {temperatureC}°C"
+    }
+}

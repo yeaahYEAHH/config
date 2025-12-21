@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0px;
+  padding-right: 5px;
+  color: #7ec3c1;
+  font-family: "MesloLGS Nerd Font", monospace;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.bar {
+  background-color: #000;
+  border: 1px solid #7ec3c1;
+}
+
+#clock{
+  padding: 10px;
+  transition: .3s ease-in-out;
+  margin: 5px;
+}
+
+#clock:hover {
+  background-color: #7ec3c1;
+  color: #000;
+}
+
+#cpu {
+  padding: 10px;
+  margin: 5px;
+}

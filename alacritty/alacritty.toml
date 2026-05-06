@@ -1,12 +1,12 @@
 [general]
-#live_config_reload = true
+import = ["./themes/github-dark.toml"]
+live_config_reload = true
 
 [window]
 #decorations="None"
 decorations_theme_variant = "Dark"
 padding = {x = 10, y = 0}
 dynamic_padding = true
-opacity = 0.8
 
 [font]
 normal.family = "MesloLGS Nerd Font"
@@ -20,21 +20,6 @@ vi_mode_cursor = { text = "#000000", cursor = "#01a0e4"}
 #line_indicator = { foreground = "#f7f3f7", background = "#1b181b" }
 footer_bar = { foreground = "#b5e4f4", background = "#090300" }
 selection = { text = "#a5a2a2", background = "#000000" }
-
-[colors.primary]
-background = "#000000"
-foreground = "#7ec3c1"
-dim_foreground = "#509996" 
-bright_foreground = "#a4c1c0"
-
-
-[colors.search]
-matches = { foreground = "#60ac39", background = "#000000" }
-focused_match = { foreground = "#71291e", background = "#1fad83" }
-
-[colors.hints]
-start = { foreground = "#60ac39", background = "#000000" }
-end = { foreground = "#71291e", background = "#1fad83" }
 
 [bell]	
 animation = "EaseOutExpo"
@@ -60,4 +45,3 @@ hide_when_typing = true
 bindings = [
 	{ key = "V", mods = "Control", action = "ToggleViMode" },
 ]
-
